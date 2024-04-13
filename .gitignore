@@ -51,7 +51,7 @@
 .nfs*
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -70,5 +70,7 @@
 .ionide
 
 .out
+
+build/
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,linux,visualstudiocode
