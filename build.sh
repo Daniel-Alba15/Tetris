@@ -1,1 +1,1 @@
-cd build/src && cmake --build . && ./tetris
+cmake . && make && ./Tetris

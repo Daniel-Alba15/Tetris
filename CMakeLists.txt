@@ -1,3 +1,6 @@
 cmake_minimum_required(VERSION 3.22.1)
 project(Tetris)
-add_subdirectory(src)
+include_directories(src)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(Tetris ${SOURCES})
+target_link_libraries(Tetris raylib GL m pthread dl rt X11)
